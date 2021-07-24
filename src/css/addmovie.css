@@ -1,0 +1,25 @@
+.add-movie {
+  margin: 20px auto;
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-movie input, .add-movie button {
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+.add-movie input:focus, .add-movie button:focus {
+  outline: none;
+}
+
+.add-movie button {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  background-color: green;
+  outline: none;
+  margin-left: 10px;
+}
